@@ -1,0 +1,188 @@
+body {
+    background-color:pink;
+    font-family: "Inter", sans-serif;
+}
+      .flex{
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+        }
+
+        header{
+            height: 160px;
+            background-image: url("img.jpg");
+            background-size: cover;
+            background-position: center;
+            color: rgb(91, 13, 13);
+        }
+         nav {
+        padding:15px;
+        margin:20px;
+        border-style:solid;
+        border-color: rgb(221, 63, 63);
+        background-color:rgb(202, 82, 114);
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    nav a {
+           text-decoration:none;
+           color:rgb(227, 131, 29);
+           margin-right:20px;
+    }
+     .font li {
+    color:rgb(214, 82, 117)
+    }
+    header img {
+        float: left;
+        width: 150px;
+        height: 130px;
+    }
+    nav {
+        background-color:rgb(202, 82, 114);
+        padding:15px;
+        margin:20px;
+        border-style:solid;
+        border-color:rgb(221, 63, 63);
+        display:flex;
+        justify-content:space-between;
+    }
+    nav a {
+           text-decoration:none;
+           color:rgb(91, 13, 13);
+           margin-right:20px;
+    }
+    header.flex {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            color: rgb(91, 13, 13);
+    }
+        header img {
+        float: left;
+        width: 150px;
+        height: 130px;
+        }
+        footer-flex {
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+           
+            background-size: cover;
+            background-position:center;
+            color: rgb(91, 13, 13);
+        }
+         .row {
+            display:flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .col {
+            width: 33.3%;
+            /* sau calc(100%/3) */
+            margin: 10px;
+            background: rgb(179, 65, 104);
+        }
+        .card {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:100%;
+            padding:10px;
+        }
+        .card {
+            padding: 10px;
+        }
+        .card p {
+            margin-bottom:0;
+            color: rgb(90, 32, 144);
+        }
+        .card img {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card h3 {
+            margin-top:0;
+            text-align:left;
+        }
+        .galerie {
+            display:flex;
+            width:30px;
+        }
+        .pisici {
+            display:flex;
+            width:50%;
+            justify-content:space-between;
+        }
+        .veverițe {
+            display:flex;
+            width:50%;
+        }
+        .animăluțe {
+            display:flex;
+            width:20%;
+        }
+          pisica-1 {
+            width: 20px;
+          }
+          pisica-2 {
+            width: 20px;
+          }
+          veverița-1 {
+            width:20px;
+        }
+        veverița-2 {
+            width:20px;
+        }
+          iepuraș-1 {
+            width: 20px;
+          }
+          soricel-1 {
+            width:20px;
+          }
+          căsuța-1 {
+            width:20px;
+          }
+            img-poza-site{
+                width:100%;
+            }
+            img-poza-site-2 {
+                width:100%;
+            }
+            img-pisica-1 {
+                width:100%;
+            }
+            img-pisica-2 {
+                width:100%;
+            }
+            img-broscuța {
+                width:100%;
+            }
+         p {
+            padding:5px;
+            color:brown;
+           
+        }
+        h1 {
+            color:rgb(90, 32, 144);
+        }
+        h2 {
+            color:rgb(90, 32, 144);
+            margin-top:70px;
+        }
+        h2-footer {
+            color:rgb(90, 32, 144);
+            margin-top:0;
+        }
+        h3 {
+            color:rgb(90, 32, 144);
+        }
+        li {
+            padding:2px;
+            margin:10px;
+            color: brown;
+        }
+      
